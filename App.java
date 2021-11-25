@@ -8,7 +8,7 @@ public class App {
     static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
     static final String DB_URL = "jdbc:mysql://47.101.196.82:3306/linux_final";
     static final String USER = "root";
-    static final String PASS = "zzw171413";
+    static final String PASS = "*******";
 
     public static void main(String[] args) {
         Connection conn = null;
