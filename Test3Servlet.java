@@ -12,9 +12,9 @@ import java.sql.*;
 @WebServlet("/test3Servlet")
 public class Test3Servlet extends HttpServlet {
     static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
-    static final String DB_URL = "jdbc:mysql://47.101.196.82:3306/linux_final";
+    static final String DB_URL = "jdbc:mysql://**********:3306/linux_final";
     static final String USER = "root";
-    static final String PASS = "zzw171413";
+    static final String PASS = "*********";
 
     static Connection conn = null;
     static Jedis jedis = null;
